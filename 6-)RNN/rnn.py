@@ -11,7 +11,7 @@ Created on Fri Dec  8 14:41:33 2023
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
-from torch.utils.data import DataLoader, TensorDataset # datayı pytorcha hazır hale getirmek için kullanılır 
+from torch.utils.data import DataLoader, TensorDataset # used to make the data ready for pytorch 
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import numpy as np
